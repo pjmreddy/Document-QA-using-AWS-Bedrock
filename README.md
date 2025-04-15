@@ -1,27 +1,33 @@
 <div align="center">
 
 # 📄 Document Q&A using AWS Bedrock
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
+[![AWS](https://img.shields.io/badge/AWS-Bedrock-orange.svg)](https://aws.amazon.com/bedrock/)
+![Langchain](https://img.shields.io/badge/Langchain-🦜_LLM_Framework-blueviolet)
+
+
 
 </div>
+
+
 
 This application leverages AWS Bedrock's foundation models (Claude v2 and Llama3-70b) through a sophisticated LangChain pipeline. The system processes documents (PDF, TXT, CSV, DOCX) using document loaders, splits text with recursive character splitting (10k chunks, 1k overlap), generates embeddings with Amazon Titan Embed Text v2, and stores them in FAISS for efficient similarity search. The agent-based architecture allows for natural language question answering with context-aware responses.
 
 
+### Landing Page
 ![Landing Page](landing.png)
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
-[![AWS](https://img.shields.io/badge/AWS-Bedrock-orange.svg)](https://aws.amazon.com/bedrock/)
 
-## 🚀 Powerful Document Question Answering System
+
 
 ### ✨ Key Features
 
-🔹 **Multi-format Support**: Process PDF, TXT, CSV, DOCX documents with ease
-🔹 **Smart Chunking**: Advanced recursive text splitting with overlap
-🔹 **Dual LLM Power**: Choose between Claude v2 or Llama3-70b models
-🔹 **Context-Aware**: Responses include source document references
-🔹 **Real-time UI**: Streamlit interface with progress indicators
+🔹 **Multi-format Support**: Process PDF, TXT, CSV, DOCX documents with ease  
+🔹 **Smart Chunking**: Advanced recursive text splitting with overlap  
+🔹 **Dual LLM Power**: Choose between Claude v2 or Llama3-70b models  
+🔹 **Context-Aware**: Responses include source document references  
+🔹 **Real-time UI**: Streamlit interface with progress indicators  
 
 
 ### 🔧 Technical Architecture
