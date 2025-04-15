@@ -12,7 +12,7 @@
 
 
 
-This application leverages AWS Bedrock's foundation models (Claude v2 and Llama3-70b) through a sophisticated LangChain pipeline. The system processes documents (PDF, TXT, CSV, DOCX) using document loaders, splits text with recursive character splitting (10k chunks, 1k overlap), generates embeddings with Amazon Titan Embed Text v2, and stores them in FAISS for efficient similarity search. The agent-based architecture allows for natural language question answering with context-aware responses.
+This application leverages AWS Bedrock's foundation models (Claude v2 and Llama3-70b) through a sophisticated LangChain pipeline. The system processes documents (PDF, TXT, CSV, DOCX) using document loaders, splits text with recursive character splitting, generates embeddings with Amazon Titan Embed Text v2, and stores them in FAISS for efficient similarity search. The agent-based architecture allows for natural language question answering with context-aware responses.
 
 
 ### Landing Page
